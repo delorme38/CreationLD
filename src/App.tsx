@@ -26,6 +26,7 @@ function MyButton() {
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
+          <MyButton />
         </p>
         <p>
           <a
