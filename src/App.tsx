@@ -5,6 +5,13 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+function MyButton() {
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
+}
   return (
     <div className="App">
       <header className="App-header">
@@ -14,6 +21,7 @@ function App() {
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
+          <MyButton />
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
